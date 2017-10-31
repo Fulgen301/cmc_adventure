@@ -1,0 +1,3 @@
+Upgrade=%s
+NothingUpgradeable=Nichts zum umwandeln verfügbar.
+CantUpgrade=Clonk kann gerade nicht auspacken.

@@ -1,0 +1,10 @@
+[DefCore]
+id=_BAS
+Name=Basis
+Version=4,9,10,7
+Category=1
+MaxUserSelect=1
+Width=1
+Height=1
+Components=_BAS=1;
+ 
