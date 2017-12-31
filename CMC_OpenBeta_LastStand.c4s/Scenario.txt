@@ -13,9 +13,9 @@ Definition3=Hazard.c4d
 Definition4=ModernCombat.c4d
 
 [Game]
-StructNeedEnergy=0
+StructNeedEnergy=1
 Goals=GDEF=1
-Rules=EFMN=1;NOFF=1
+Rules=EFMN=1;NOFF=1;ENRG=1
 
 [Player1]
 Crew=PCMK=1
