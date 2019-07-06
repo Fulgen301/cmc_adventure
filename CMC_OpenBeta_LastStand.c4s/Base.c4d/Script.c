@@ -6,12 +6,9 @@ local automat;
 local lights;
 local drive;
 
-static current_section;
-
 protected func Construction()
 {
 	_inherited(...);
-	current_section = ["main", 0, 0];
 	PlaceBase();
 }
 
@@ -27,12 +24,11 @@ private func PlaceBase()
 	
 	// Draw material
 	// BackWall -89 -29 +91 -29
-	DrawMaterialQuad("BackWall-Concrete2",
+	/*DrawMaterialQuad("BackWall-Concrete2",
 					 AbsX(-89), AbsY(-29),
 					 AbsX(+91), AbsY(-29),
 					 AbsX(+91), AbsY(+80),
 					 AbsX(-89), AbsY(+80));
-	
 	DrawMaterialQuad("Wall-Concrete3",
 					 AbsX(-89), AbsY(-29),
 					 AbsX(+91), AbsY(-29),
@@ -97,7 +93,7 @@ private func PlaceBase()
 					 AbsX(+31), AbsY(+62),
 					 AbsX(+31), AbsY(+72),
 					 AbsX(-30), AbsY(+72),
-					 true);
+					 true);*/
 	
 	// Position: 1000, 790
 	CreateObject(MVNT, 0, 0, -1)->SetCon(30);

@@ -1,0 +1,7 @@
+[DefCore]
+id=S_RF
+Version=4,9,8
+Name=ResearchFacility
+Category=C4D_StaticBack
+MaxUserSelect=1
+Width=1

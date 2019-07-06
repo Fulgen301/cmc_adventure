@@ -11,10 +11,11 @@ Definition1=Objects.c4d
 Definition2=Knights.c4d
 Definition3=Hazard.c4d
 Definition4=ModernCombat.c4d
+Definition5=EkeReloaded.c4d\Creatures.c4d
+Definition6=EkeReloaded.c4d\Particles.c4d
 
 [Game]
 StructNeedEnergy=1
-Goals=GDEF=1
 Rules=EFMN=1;NOFF=1;ENRG=1
 
 [Player1]
